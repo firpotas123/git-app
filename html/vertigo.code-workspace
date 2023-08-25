@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "vertigo",
+			"path": "vertigo"
+		},
+		{
+			"name": "pc marcio",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pc marcio"
+	}
+}
