@@ -1,0 +1,19 @@
+h2 {
+    color: magenta;
+    font-size: 25px;
+}
+
+h3 {
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+p {
+    color: peru;
+}
+
+/* 6 - classes */
+
+.paragrafos {
+    background-color: darkblue;
+}
