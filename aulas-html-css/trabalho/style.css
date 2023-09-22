@@ -1,0 +1,15 @@
+body {
+    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2018/09/180710-China-iStock-860594926.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    background-blend-mode:darken;
+    background-color: black;
+    color: aliceblue;
+}

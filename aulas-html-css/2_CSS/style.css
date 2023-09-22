@@ -4,16 +4,20 @@ h2 {
 }
 
 h3 {
-    color: cornflowerblue;
+    color: rgb(37, 67, 122);
     font-size: 25px;
 }
 
 p {
-    color: peru;
+    color: rgb(0, 255, 85);
 }
 
 /* 6 - classes */
 
 .paragrafos {
     background-color: darkblue;
+}
+
+.cor-textos {
+    color: red;
 }

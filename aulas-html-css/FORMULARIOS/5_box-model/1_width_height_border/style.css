@@ -1,0 +1,22 @@
+.caixa_widht {
+    /* espessura, tipo e cor = widht, style, color */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+
+    /* shorthand = varios valores na mesma propriedade */
+    border: 2px solid red;
+
+    width: 200px;
+}
+
+.imagem_widht {
+    width: 200px;
+}
+
+.caixa_height {
+    border: 1px dashed #0f0;
+    
+    height: 50px;
+    width: 100px;
+}
