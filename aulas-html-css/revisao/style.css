@@ -19,7 +19,7 @@ header {
 
 header ol {
     display: flex;
-    gap: 32rem;
+    gap: 24rem;
 }
 
 header ol,

@@ -1,15 +1,75 @@
-body {
-    background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2018/09/180710-China-iStock-860594926.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
 }
 
-h1 {
+html, body {
+    overflow: hidden;
+    background-color: rgb(97, 0, 0);
+}
+
+
+header {
+    background-color: rgb(189, 0, 0);
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header ol {
+    display: flex;
+    gap: 24rem;
+}
+
+header ol,
+header li {
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 5%;
+    border-radius: 3px;
+}
+
+header a:hover {
+    background-color: #d0d48b;
+}
+
+header li:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     text-align: center;
-    margin-top: 6rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100px;
-    background-blend-mode:darken;
-    background-color: black;
-    color: aliceblue;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    padding-inline: 20%;
+}
+
+h2 {
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    padding-top: 30%s;
 }
