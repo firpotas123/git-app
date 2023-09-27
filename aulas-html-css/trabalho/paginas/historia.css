@@ -6,7 +6,6 @@
 }
 
 html, body {
-    overflow: hidden;
     background-color: rgb(97, 0, 0);
 }
 
@@ -24,7 +23,6 @@ header {
 
 header ol {
     display: flex;
-    gap: 24rem;
 }
 
 header ol,
@@ -38,8 +36,8 @@ header a {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    padding: 5%;
     border-radius: 3px;
+    font-size: 17px;
 }
 
 header a:hover {
@@ -51,26 +49,33 @@ header li:hover {
     transition: transform .4s;
 }
 
-div {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    text-align: center;
-    font-size: 24px;
+p {
+    margin-top: 6rem;
     color: white;
-    align-items: center;
-    display: flex;
-    justify-content: center ;
-    text-align: center;
-    padding-right: 18%;
+    font-size: 27px;
+    padding-inline: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h2 {
-    align-items: center;
+#textos {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    padding-inline: 5%;
+    padding-bottom: 5%;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    padding-top: 1%;
+}
+
+img {
+    padding-top: 1.5rem;
     display: flex;
-    justify-content: center ;
-    text-align: center;
-    padding-right: 9%;
-    padding-left: 15%;
-    color: rgb(44, 0, 0);
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-inline: auto;
+    padding-bottom: 2%;
 }

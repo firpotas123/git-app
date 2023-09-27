@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html, body {
+    background-color: rgb(97, 0, 0);
+}
+
+
+header {
+    background-color: rgb(189, 0, 0);
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header ol {
+    display: flex;
+}
+
+header ol,
+header li {
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+header a:hover {
+    background-color: #d0d48b;
+}
+
+header li:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+p {
+    margin-top: 2rem;
+    color: white;
+    font-size: 25px;
+    padding-inline: 5%;
+    padding-bottom: 2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.filosofia {
+    margin-top: 2rem;
+    color: white;
+    font-size: 25px;
+    padding-inline: 5%;
+    padding-bottom: 1.5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    padding-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-inline: auto;
+    padding-bottom: 2%;
+}
+
+p > a {
+    color: red;
+    font-style: italic;
+}
+
+#margem {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 0, 0);
+    font-size: 50px;
+}
+
+h2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 0, 0);
+    font-size: 50px;
+}
+
+ul > li {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    padding-inline: 5%;
+    padding-bottom: 2%;
+    list-style: none;
+}
+
