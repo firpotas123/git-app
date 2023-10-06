@@ -87,7 +87,8 @@ p > a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(44, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
     font-size: 50px;
 }
 
@@ -96,7 +97,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(44, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
     font-size: 50px;
 }
 

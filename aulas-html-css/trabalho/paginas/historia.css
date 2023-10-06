@@ -50,7 +50,7 @@ header li:hover {
 }
 
 p {
-    margin-top: 6rem;
+    padding-top: 2rem;
     color: white;
     font-size: 27px;
     padding-inline: 5%;
@@ -78,4 +78,14 @@ img {
     width: 600px;
     margin-inline: auto;
     padding-bottom: 2%;
+}
+
+h2 {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
+    font-size: 50px;
 }

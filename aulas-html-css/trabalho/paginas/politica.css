@@ -57,13 +57,14 @@ p {
     padding-bottom: 0%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2 {
+h2, h3 {
     margin-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(44, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 40px;
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
 }
 
 img {
@@ -85,21 +86,15 @@ img {
 }
 
 h3 {
-    padding-inline: 5%;
-    padding-top: 5%;
-    color: rgb(44, 0, 0);
-    font-size: 35px;
-}
-
-#texto1 {
-    color: white;
-    font-size: 25px;
-    padding-inline: 9.29%;
-    padding-bottom: 0%;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
 }
+
 
 #direito {
     padding-top: 1.5rem;

@@ -6,7 +6,7 @@
 }
 
 html, body {
-    overflow: hidden;
+
     background-color: rgb(97, 0, 0);
 }
 
@@ -58,11 +58,12 @@ div {
     text-align: center;
     font-size: 24px;
     color: white;
-    align-items: center;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-right: 18%;
+    padding-right: 15%;
+    padding-top: 3rem;
 }
 
 h2 {
@@ -72,5 +73,14 @@ h2 {
     text-align: center;
     padding-right: 9%;
     padding-left: 15%;
-    color: rgb(44, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 3px 10px rgb(0, 0, 0);
+    padding-bottom: 5rem;
+}
+
+#paragrafo {
+    background-image: url(./imagens/Design\ sem\ nome\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
