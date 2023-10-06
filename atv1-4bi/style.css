@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bomdia {
+    border: 1px solid blue;
+    width: 200px;
+    height: 150px;
+    margin-inline: auto;
+    margin-block: 20px;
+    padding-left: 100px;
+}
+.marcio {
+    border: 1px solid green;
+    width: 300px;
+    height: 100px;
+    margin-inline: auto;
+    margin-block: 20px;
+    padding-top: 10px;
+}
+.voce {
+    border: 1px solid purple;
+    width: 400px;
+    height: 200px;
+    margin-block: 20px;
+    padding-left: 80px;
+}
+.lindo {
+    border: 1px solid red;
+    width: 500px;
+    height: 300px;
+    margin-block: 20px;
+    padding-top: 80px;
+}
